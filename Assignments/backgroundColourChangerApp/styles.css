@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    background-color: #000;
+}
+
+/* using id selector */
+#input-container {
+    border: 5px solid white;
+    padding: 10px;
+    background-color: #fff;
+}
+
+/* using class selector */
+/* when we hover on input element, below style changes mouse cursor from arrow to hand icon*/
+.change-cursor {
+    cursor: pointer;  
+}
